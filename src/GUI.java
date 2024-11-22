@@ -37,7 +37,7 @@ public class GUI
     public GUI()
     {
         
-        model = new DefaultTableModel(new String[]{"Tiến Trình", "Thời Gian Đến", "Thời Gian Thực Thi", "Thời Gian Chờ", "Thời Gian Hoàn Thành"}, 0);
+        model = new DefaultTableModel(new String[]{"Tiến Trình", "Thời Gian Xuất Hiện", "Thời Gian Thực Hiện", "Thời Gian Chờ", "Thời Gian Hoàn Thành"}, 0);
         
         table = new JTable(model);
         table.setFillsViewportHeight(true);
